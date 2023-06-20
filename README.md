@@ -1,5 +1,22 @@
 # CS-340
 
+How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+I write programs that are maintainable, readable, and adaptable by using modules where I can, and naming things in ways that make sense. This way, modules can be reused, and it's immediately clear (for the most) as to what they do. The CRUD python module is incredibly useful because with very few tweaks it can be used to manipulate all kinds of things. My favorite thing about these courses is that they fill my library with different modules that can be repurposed for all sorts of things.
+
+How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+One thing I've got from computer science is the proper way to look at a problem. I've found that making rough diagrams of how you envision the requirements for a project can be incredibly helpful in designing the end product. I may not understand how to connect a database to the dashboard at the start of the course, but I know I'll need connective tissue there, and that's thanks to writing out the problem and rough sketching a solution.
+
+What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+Computer scientists help people and companies to make data-driven decisions. The job with this project was to provide a way for Grazioso Salvare to see their data in an intuitive way.
+
+--------------------------------------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------- 
+
 About the Project/Project Title
 Provide a little information about your project or an overview that explains what the project is about.
 
