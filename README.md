@@ -1,20 +1,20 @@
-# CS-340
+# AnimalDBDashboard
 
-How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+In this project, I worked with MongoDB and python to create a module that allowed for CRUD operations on a database and created a GUI that could filter and display the data stored on the database.
+I worked with the following technologies in this project:
+<ul>
+        Python
+        Jupyter Notebook
+        MongoDB
+        Numpy, Pandas, and Plotly python libs
+</ul>
 
-I write programs that are maintainable, readable, and adaptable by using modules where I can, and naming things in ways that make sense. This way, modules can be reused, and it's immediately clear (for the most) as to what they do. The CRUD python module is incredibly useful because with very few tweaks it can be used to manipulate all kinds of things. My favorite thing about these courses is that they fill my library with different modules that can be repurposed for all sorts of things.
+This was my first introduction to adding UI components to database manipulation, so it was an incredible learning experience for figuring out how to add things like data tables, geolocators, data visualizations, and data filtering. I'm happy with how it turned out, and this is a great stepping stone toward figuring out how to make these types of dashboards represent data in a more aesthetically pleasing way.
 
-How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+![Screenshot unfiltered](https://github.com/conner-huf/CS-340/assets/126115012/8b857d6f-ff32-4da0-b3f9-154684b74fae)
 
-One thing I've got from computer science is the proper way to look at a problem. I've found that making rough diagrams of how you envision the requirements for a project can be incredibly helpful in designing the end product. I may not understand how to connect a database to the dashboard at the start of the course, but I know I'll need connective tissue there, and that's thanks to writing out the problem and rough sketching a solution.
+^^ Above is a screenshot of the finished dashboard with no filter applied. ^^
 
-What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
-
-Computer scientists help people and companies to make data-driven decisions. The job with this project was to provide a way for Grazioso Salvare to see their data in an intuitive way.
-
---------------------------------------------------------------------------------------------- 
---------------------------------------------------------------------------------------------- 
---------------------------------------------------------------------------------------------- 
 --------------------------------------------------------------------------------------------- 
 
 About the Project/Project Title
@@ -27,8 +27,6 @@ In an update, I’ve added the dashboard and filtering options to represent the 
 
 Motivation
 This is a short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
-
-This project exists because it is an assignment for my CS-340: Client/Server Development course. Outside of that rationale, this project could be used to perform CRUD operations on any kind of database with the correct adjustments.
 
 V2: This dashboard and the data visualization tools could be tweaked to represent different filtering options, or could be used as a skeletal structure to represent an entirely different data set. 
 
