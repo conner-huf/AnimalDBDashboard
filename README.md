@@ -17,41 +17,35 @@ This was my first introduction to adding UI components to database manipulation,
 
 --------------------------------------------------------------------------------------------- 
 
-About the Project/Project Title
-Provide a little information about your project or an overview that explains what the project is about.
+## About the Project/Project Title
 
 This project aims to create a Python module that works with PyMongo to perform CRUD operation within a database in MongoDB. PyMongo is the driver used for this project. PyMongo is officially supported by the MongoDB team, which ensures that it stays up-to-date with the latest releases of MongoDB. Additionally, PyMongo offers operation that is intuitive consistent with the MongoDB syntax, which makes it an excellent choice of driver for working with MongoDB. The purpose of the project is to create a module in Python that can perform CRUD operations (Create, Read, Update, and Delete) on documents within a database. These operations are built in Python and tested using a Jupyter Notebook.
 
 V2:
 In an update, I’ve added the dashboard and filtering options to represent the data populated into the data table. The dashboard includes a data table that can be filtered, a geolocator that shows the location of the currently selected animal, and a pie chart that shows the breed distribution of the currently selected filtering option. The filtering options filter for the following criteria: unfiltered, animals best suited for disaster or individual tracking, animals best suited for mountain or wilderness rescue, and animals best suited for water rescue.
 
-Motivation
-This is a short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
+## Motivation
 
 V2: This dashboard and the data visualization tools could be tweaked to represent different filtering options, or could be used as a skeletal structure to represent an entirely different data set. 
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally: “To get a local copy up and running, follow these simple example steps.”
+## Getting Started
 
 The first thing I did to get this project going is get my data imported into MongoDB. I used a csv file and imported that into MongoDB. Once I verified that the data was uploaded correctly, I created a user for the database with readWrite permissions. I then created a Python module for performing CRUD operations within the database and a Jupyter Notebook to test the function of this module.
 
 V2:
 Nothing additional needed to get the dashboard running. As written, the jupyter notebook initiates the dashboard on a local host server, so it just opens a new tab in your browser to display the dashboard.
 
-Installation
-List the tools you need to use the software and how to install them.
+## Installation
 
 To use this software you need MongoDB, a Python IDE and interpreter, and Jupyter Notebook.
 
 V2: 
 No additional software needed for the updated program.
 
-Usage
-Use this space to show useful examples of how your project works and how it can be used. Be sure to include examples of your code, tests, and screenshots.
+## Usage
 
-Code Example
-Show what the library does as concisely as possible. Developers should be able to figure out how your project solves their problem by looking at the code example. Make sure that your code is short and concise.
-
+## Code Example
+`
 def create(self, data):
         if data is not None:
             result = self.database.animals.insert_one(data) 
@@ -72,7 +66,7 @@ def update(self, query, update_data):
 def delete(self, query):
       result = self.collection.delete_many(query)
       return result.deleted_count
-
+`
 Above is a snippet of the code that updates a document and deletes a document in the database.
 
 Tests
