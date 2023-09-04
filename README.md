@@ -45,8 +45,8 @@ No additional software needed for the updated program.
 ## Usage
 
 ## Code Example
-`
-def create(self, data):
+
+`def create(self, data):
         if data is not None:
             result = self.database.animals.insert_one(data) 
             return result.acknowledged # data should be dictionary            
@@ -65,9 +65,9 @@ def update(self, query, update_data):
 
 def delete(self, query):
       result = self.collection.delete_many(query)
-      return result.deleted_count
-`
-Above is a snippet of the code that updates a document and deletes a document in the database.
+      return result.deleted_count`
+
+Above is a snippet of the code that updates a document and deletes a document in the database. 
 
 Tests
 Describe and show how to run the tests with code examples.
