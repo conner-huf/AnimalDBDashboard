@@ -181,5 +181,5 @@ This snippet is the callback for loading the data table in the dashboard. It che
 
 
 ## Contact
-Your name: Conner Hufnagel
+Your name: Conner Hufnagel <br>
 conner.huf@gmail.com
