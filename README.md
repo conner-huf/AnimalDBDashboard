@@ -42,9 +42,7 @@ To use this software you need MongoDB, a Python IDE and interpreter, and Jupyter
 V2: 
 No additional software needed for the updated program.
 
-## Usage
-
-## Code Example
+## Code Examples
 ```
 def create(self, data):
         if data is not None:
