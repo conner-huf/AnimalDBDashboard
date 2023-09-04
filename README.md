@@ -11,7 +11,7 @@ I worked with the following technologies in this project:
 
 This was my first introduction to adding UI components to database manipulation, so it was an incredible learning experience for figuring out how to add things like data tables, geolocators, data visualizations, and data filtering. I'm happy with how it turned out, and this is a great stepping stone toward figuring out how to make these types of dashboards represent data in a more aesthetically pleasing way.
 
-![Screenshot 2023-06-15 140457](https://github.com/conner-huf/AnimalDBDashboard/assets/126115012/dd0fd8ab-dea4-4386-9d21-e72abf6a5afa)
+![Screenshot 2023-06-15 140457 (2)](https://github.com/conner-huf/AnimalDBDashboard/assets/126115012/d5f48e5b-5d8e-4403-bce9-3811fc056294)
 
 ^^ Above is a screenshot of the finished dashboard with no filter applied. ^^
 
