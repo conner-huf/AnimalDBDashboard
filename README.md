@@ -45,8 +45,8 @@ No additional software needed for the updated program.
 ## Usage
 
 ## Code Example
-
-`def create(self, data):
+```
+def create(self, data):
         if data is not None:
             result = self.database.animals.insert_one(data) 
             return result.acknowledged # data should be dictionary            
@@ -65,13 +65,13 @@ def update(self, query, update_data):
 
 def delete(self, query):
       result = self.collection.delete_many(query)
-      return result.deleted_count`
-
+      return result.deleted_count
+```
 Above is a snippet of the code that updates a document and deletes a document in the database. 
 
 Tests
 Describe and show how to run the tests with code examples.
-
+```
 shelter = AnimalShelter()
 data = {'animal_type': ‘Dog’,  'breed': 'Labrador',  'color': 'Yellow',}
 success = shelter.create(data)
@@ -83,15 +83,14 @@ else:
 query = {'breed': 'Labrador', 'outcome_type': 'Transfer'}
 results = shelter.read(query)
 print(results)
-
+```
  I tested the performance of these operations in Jupyter Notebook by instantiating an AnimalShelter object, using the create operation to create an object, reporting success or failure, then reading that same document, and reporting success or failure.
 
 To test the update and delete operations, I updated the earlier created document, then used the read method to display that the document had been updated. Then I used the delete method, again using the find method to show that the document could no longer be found. Additionally, the update and delete methods return the number of modified/deleted documents.
 
 V2:
 Here is a snippet of my app layout as it’s written in the notebook file:
-
-
+```
 app.layout = html.Div([
     html.Div(id='hidden-div', style={'display': 'none'}),
     html.Center([
@@ -136,7 +135,7 @@ app.layout = html.Div([
         )
     ])
 ])
-
+```
 
 To break this down a bit, I’ve separated the dashboard into two sections, an upper section and a lower section. The upper section contains the data table and the filter options and the lower section contains the geolocation map and the pie chart. 
 
@@ -147,8 +146,7 @@ Then I tried absolute pathing to the logo.png, and that didn’t work either. Af
 
 
 Here is a snippet of how I’m going about filtering the different options:
-
-
+```
 @app.callback(
     Output('datatable-id', 'data'),
     [Input('datatable-id', 'page_current'),
@@ -180,10 +178,10 @@ def update_table(page_current, filter_value):
     return filtered_df.iloc[
         page_current * 20: (page_current + 1) * 20
     ].to_dict('records')
-
-
+```
 This snippet is the callback for loading the data table in the dashboard. It checks the current page selected (which is page 1, the first page, initialized), and the filter value (which is unfiltered initialized). Depending on the filter value, the program checks a number of different column values to determine which rows should populate the table. The program checks for the water rescue filter, then mountain rescue, then disaster tracking. Then, if none of those are selected, the program assumes the table should be unfiltered.
 
 
-Contact
+## Contact
 Your name: Conner Hufnagel
+conner.huf@gmail.com
